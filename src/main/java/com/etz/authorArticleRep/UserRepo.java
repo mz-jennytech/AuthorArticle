@@ -6,6 +6,6 @@ import org.springframework.stereotype.Repository;
 import com.etz.authorArticleModel.User;
 
 @Repository
-public interface UserRepo extends JpaRepository <User, Long>{
+public interface UserRepo extends JpaRepository<User, Long>{
  
 }
